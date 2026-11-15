@@ -165,6 +165,8 @@ kbd{font-size:.84em;font-weight:600;background:#fff;border:1px solid #C2D1DB;
 figure{margin:20px 0}
 figure img{width:100%;height:auto;display:block;border:1px solid var(--linie);
   border-radius:10px;box-shadow:var(--schatten);background:#fff;margin:0 auto}
+figure.video video{width:100%;aspect-ratio:16/9;height:auto;display:block;border-radius:10px;
+  box-shadow:var(--schatten);background:var(--navy)}
 figure.klein img{max-width:400px}
 figure.halb img{max-width:560px}
 .wege{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:16px 0}
@@ -513,6 +515,13 @@ footer img{height:28px}
         </ol>
       </div>
     </div>
+
+    <figure class="video" id="video1">
+      <video controls preload="metadata" playsinline poster="video/poster_stunde1.jpg"
+        src="video/Erklaervideo_Word_Stunde1_web.mp4"></video>
+      <figcaption><b>Video zu Stunde 1</b> (11:30 min): Schritt 2 bis 12 in Word
+        vorgeführt. Du kannst es an jeder Stelle anhalten und nebenher mitmachen.</figcaption>
+    </figure>
 
     <div class="schritt" id="s2">
       <div class="schritt-kopf"><div class="schritt-nr">2</div>
